@@ -4,7 +4,7 @@ PHP exercise created for the Jumia recruitment process
 
 Setup: git clone https://github.com/RuipVieira/JumiaExercisePHP
 
-Then, on the "app" folder of the project:
+Then, through the terminal, on the "app" folder of the project, imput the following commands:
 
 composer install
 docker-compose up

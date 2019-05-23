@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  apache:
+    image: 'php:7.2-apache'
+    container_name: main
+    restart: always
+    ports:
+      - '3000:80'
+    volumes:
+      - ./:/var/www/html/project
+      - ./project.conf:/etc/apache2/sites-available/000-default.conf
+
+

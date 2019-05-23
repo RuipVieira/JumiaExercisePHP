@@ -12,4 +12,5 @@ docker-compose up
 To connect to the index file:
 localhost:3000
 
-To run the unit tests: ./vendor/bin/phpunit --bootstrap vendor/autoload.php app/tests/
+To run the unit tests:
+./vendor/bin/phpunit --bootstrap vendor/autoload.php app/tests/
